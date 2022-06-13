@@ -1,4 +1,4 @@
-# DTD와 DOCTYPE
+# DTD와 DOCTYPE
 
 ### 1. DTD(Document Type declaration)
 
@@ -13,7 +13,7 @@
 ### 2. DOCTYPE 이란?
 
 * Document Type의 약자이다.
-* **DTD 를 선언하는 문법이다.**
+* **DTD 를 선언하는 문법이다.**
 * HTML 태그를 정의하기 전에 가장 먼저 선언되어야 한다.
 * 미 선언시, 호환모드로 동작하게 되고 이는 각 브라우저 마다 문서가 나타나는 방식이 달라지게 된다.&#x20;
 
@@ -23,10 +23,12 @@
 
 ```html
 // HTML 4.01에서의 DTD
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+"http://www.w3.org/TR/html4/loose.dtd">
 
 // XHTML 1.1에서의 DTD
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 ```
 
 * SGML(문서용 마크업 언어를 정의하기 위한 메타 언어) 기반으로 버전을 인식한다.
